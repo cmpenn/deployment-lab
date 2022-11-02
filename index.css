@@ -3,7 +3,7 @@ body{
 }
 
 h1 {
-    color: darkmagenta;
+    color: darkred;
     font-size: 100px;
     text-align: center;
 }
@@ -12,6 +12,22 @@ img{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 500px;
+    height: 500px;
+}
+
+section{
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info{
+   color: black; 
+   margin: auto;
+   font-weight: 700;
+   font-size: larger;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
