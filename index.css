@@ -1,5 +1,17 @@
+body{
+    background-color: navajowhite;
+}
+
 h1 {
     color: darkmagenta;
     font-size: 100px;
     text-align: center;
 }
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
