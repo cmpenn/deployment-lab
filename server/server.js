@@ -9,11 +9,10 @@ app.use(express.json())
 app.use(cors())
 
 const {home} = require('./controllers/pageCtrl.js')
+const {styler} = require('./controllers/pageCtrl')
 
 app.get('/', home)
-app.get(`/index.css`, (req, res) =>{
-    res.sendFile(path.join(__dirname, '../../index.css'))
-})
+app.get(`/css`, styler)
 
 const { PORT } = process.env
 
