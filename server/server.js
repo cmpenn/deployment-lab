@@ -2,6 +2,15 @@ const express = require('express')
 const cors = require('cors')
 require('dotenv').config()
 
+var Rollbar = require('rollbar')
+var rollbar = new Rollbar({
+  accessToken: process.env.ROLLBAR_TOKEN,
+  captureUncaught: true,
+  captureUnhandledRejections: true,
+})
+
+
+rollbar.log('Hello world!')
 
 const app = express()
 
