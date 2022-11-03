@@ -7,5 +7,7 @@ module.exports = {
     css: (req, res) =>{
         res.sendFile(path.join(__dirname, '../../index.css'))
     },
-    
+    js: (req, res) =>{
+        res.sendFile(path.join(__dirname, '../../main.js'))
+    },
 }
