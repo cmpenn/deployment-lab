@@ -4,4 +4,4 @@ function buyMe(){
     alert('you bought it')
 }
 
-buyButton.addEventListener
+buyButton.addEventListener('click', buyMe)
